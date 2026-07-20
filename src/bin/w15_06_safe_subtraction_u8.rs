@@ -5,12 +5,6 @@ fn main() {
 
     println!("given:\n  a = {}\n  b = {}\nthen:\n", a, b);
     // safe_subtraction
-    let diff: u8 = {
-        if a >= b {
-            a - b
-        } else {
-            b - a
-        }
-    };
+    let diff: u8 = { if a >= b { a - b } else { b - a } };
     println!("the difference between a and b is {}", diff);
 }

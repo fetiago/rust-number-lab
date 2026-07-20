@@ -3,21 +3,12 @@ struct Number {
     low: u8,
 }
 
-const MODULUS: Number = Number {
-    high: 1,
-    low: 109,
-};
+const MODULUS: Number = Number { high: 1, low: 109 };
 
 fn main() {
-    let current = Number {
-        high: 1,
-        low: 34,
-    };
-    
-    let step = Number {
-        high: 0,
-        low: 10,
-    };
+    let current = Number { high: 1, low: 34 };
+
+    let step = Number { high: 0, low: 10 };
 
     // arithmetics start: current + step
     // low space available on `current`
@@ -42,7 +33,7 @@ fn main() {
         result_high += 1;
     }
     // result = current + step
-    
+
     // MODULUS arithmetics start
     // if result >= MODULUS
     let mut should_subtract: u8 = 0;

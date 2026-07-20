@@ -19,10 +19,6 @@ fn main() {
 
     println!(
         "letter {}: {}\nletter {}: {}\nletter {}: {}\nletter {}: {}\nletter {}: {}\n",
-        1, encoded[0],
-        2, encoded[1],
-        3, encoded[2],
-        4, encoded[3],
-        5, encoded[4]
+        1, encoded[0], 2, encoded[1], 3, encoded[2], 4, encoded[3], 5, encoded[4]
     );
 }

@@ -10,8 +10,7 @@ fn main() {
 
     if dx == 0 {
         println!("slope is undefined");
-    }
-    else {
+    } else {
         let m: f32 = dy as f32 / dx as f32;
         println!("m = {m}");
     }

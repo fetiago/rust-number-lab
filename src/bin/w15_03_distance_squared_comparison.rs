@@ -12,12 +12,10 @@ fn main() {
 
     if point_a == point_b {
         println!("they have the same distance to origin");
-    }
-    else {
+    } else {
         if point_a > point_b {
             println!("B is closer to origin");
-        }
-        else {
+        } else {
             println!("A is closer to origin");
         }
     }
