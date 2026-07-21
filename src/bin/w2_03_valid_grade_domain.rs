@@ -11,6 +11,8 @@ fn main() {
     while i < arr.len() {
         if is_valid_grade(arr[i]) {
             println!("{}", grade_classifier::classify_grade(arr[i]));
+        } else {
+            println!("err: invalid value");
         }
         i += 1;
     }

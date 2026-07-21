@@ -10,9 +10,9 @@ fn closest_point(ax: i32, ay: i32, bx: i32, by: i32) -> &'static str {
     let point_b: i32 = distance_from_origin_squared(bx, by);
 
     if point_a > point_b {
-        "A"
-    } else if point_b > point_a {
         "B"
+    } else if point_b > point_a {
+        "A"
     } else {
         "TIE"
     }
