@@ -1,9 +1,5 @@
-fn abs_difference(x: i32, y: i32) -> i32 {
-    if x >= y {
-        return x - y;
-    } else {
-        return y - x;
-    }
+pub fn abs_difference(x: i32, y: i32) -> i32 {
+    if x >= y { x - y } else { y - x }
 }
 
 fn main() {

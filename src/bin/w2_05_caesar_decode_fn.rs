@@ -1,7 +1,9 @@
 #[path = "w2_04_caesar_encode_fn.rs"]
 mod encode;
 
-fn caesar_decode(letter: u8, key: u8) -> u8 { (letter - key) % encode::SIZE }
+fn caesar_decode(letter: u8, key: u8) -> u8 {
+    (letter - key) % encode::SIZE
+}
 
 fn main() {
     let letter: u8 = 3;
