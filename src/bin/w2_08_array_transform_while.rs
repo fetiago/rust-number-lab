@@ -27,6 +27,7 @@ fn main() {
         i = 0;
         while i < letters.len() {
             println!("{}", encoded[i]);
+            i += 1;
         }
     }
 }
