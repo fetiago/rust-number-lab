@@ -17,3 +17,16 @@ pub fn classify_grade(n: u8) -> &'static str {
         "N/A"
     }
 }
+
+pub fn grader(n: u8) {
+    if is_valid_grade(n) {
+        println!(
+            "Grade {} -> valid: {}, classification: {}",
+            n,
+            is_valid_grade(n),
+            classify_grade(n)
+        );
+    } else {
+        println!("Grade {} -> valid: {}", n, is_valid_grade(n));
+    }
+}
